@@ -1,7 +1,7 @@
 import React from "react";
 import Collapsible from "./Collapsible.js";
 
-function BasicJSON(props) {
+function Json(props) {
   var jsonObject;
   if (typeof props.data === "string") {
     jsonObject = JSON.parse(props.data);
@@ -16,4 +16,4 @@ function BasicJSON(props) {
     );
   });
 }
-export default BasicJSON;
+export default Json;

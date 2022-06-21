@@ -1,5 +1,5 @@
 import "./App.css";
-import BasicJSON from "./components/BasicJson";
+import BasicJSON from "./components/Json";
 
 function App() {
   var strOb =
